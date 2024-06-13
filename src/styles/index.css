@@ -1,3 +1,12 @@
 /* 
     General Styles
 */
+.navbar {
+  background-color: #d4a418;
+}
+
+.brand {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color: #f5f9ff;
+}
