@@ -19,7 +19,7 @@ const EditContact = () => {
     address: "",
   });
 
-
+ console.log(params.id);
 
   function handleChange(e) {
     setContactEdit({ ...contactEdit, [e.target.name]: e.target.value });
@@ -60,7 +60,7 @@ const EditContact = () => {
           <label className="form-label">Address</label>
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             name="address"
             onChange={(e) => handleChange(e)}
             defaultValue={contactEdit.address}

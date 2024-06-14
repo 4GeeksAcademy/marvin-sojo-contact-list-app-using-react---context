@@ -33,7 +33,7 @@ const CreateContact = () => {
         <p className="fs-1">Create Contact</p>
       </div>
       <form className="d-flex flex-column" onSubmit={handleSubmit}>
-        <div class="mb-3">
+        <div className="mb-3">
           <label className="form-label">Full Name</label>
           <input
             type="text"
@@ -47,7 +47,7 @@ const CreateContact = () => {
           <label className="form-label">Address</label>
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             name="address"
             onChange={(e) => handleChange(e)}
             required
