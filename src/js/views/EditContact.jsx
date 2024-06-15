@@ -19,8 +19,6 @@ const EditContact = () => {
     address: "",
   });
 
- console.log(params.id);
-
   function handleChange(e) {
     setContactEdit({ ...contactEdit, [e.target.name]: e.target.value });
   }
